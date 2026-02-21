@@ -1,0 +1,21 @@
+# Python-Abhängigkeiten für "Lass die Kirche im Dorf"
+# 
+# Standard-Bibliotheken (meist bereits installiert):
+# - tkinter (GUI)
+# - copy (Objektkopien)
+# - math (Mathematik)
+# - random (Zufallszahlen)
+# - time (Zeitmessung)
+# - traceback (Fehlerbehandlung)
+
+# ERFORDERLICH für AlphaZero:
+torch>=1.8.0   # PyTorch für neuronale Netze (AlphaZero)
+numpy>=1.19.0  # Für numerische Operationen
+
+# Optional: Für GPU-Training (empfohlen)
+# CUDA-kompatible PyTorch-Version installieren:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Für Dokumentation (optional):
+# matplotlib>=3.3.0  # Für Visualisierungen
+# jupyter>=1.0.0     # Für Jupyter Notebooks
